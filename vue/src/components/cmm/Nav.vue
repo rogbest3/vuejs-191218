@@ -11,7 +11,8 @@
 				<li><router-link to="/calculator">계산기</router-link></li>
 				<li><router-link to="/seqsum">두 수 사이의 합</router-link></li>
 				<li><router-link to="/account">계좌 개설</router-link></li>
-				<li><router-link to="/todo">할일목록</router-link></li>
+				<li><router-link to="/todo2">할일목록</router-link></li>
+				<li><router-link to="/parent">슬롯테스트</router-link></li>
 				<li>회원가입</li>
 				<li>로그인</li>
 			</ul>

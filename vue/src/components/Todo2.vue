@@ -20,7 +20,7 @@
                     <span> (완료)</span>
                     <span class="close">&#x00D7;</span>
                 </li>
-                <li v-else="">
+                <li v-else>
                     <span>task{{todo.id}} - {{todo.todo}}</span>
                     <span class="close">&#x00D7;</span>
                 </li>
@@ -31,10 +31,10 @@
 	</div>	
 </template>
 <script>
-import Nav from "@/components/Nav.vue"
-import Footer from "@/components/Footer.vue"
+import Nav from "@/components/cmm/Nav.vue"
+import Footer from "@/components/cmm/Footer.vue"
 export default {
-	name : 'todo',
+	name : 'todo2',
 	components : {
 		Nav, Footer
 	},
@@ -70,7 +70,6 @@ export default {
                 this.todos.splice(idx, 1) */
             //
             this.todos.splice(i, 1)
-
         }
 	}
 }

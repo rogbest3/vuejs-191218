@@ -8,8 +8,8 @@
 	</div>
 </template>
 <script>
-import Nav from "@/components/Nav.vue"
-import Footer from "@/components/Footer.vue"
+import Nav from "@/components/cmm/Nav.vue"
+import Footer from "@/components/cmm/Footer.vue"
 export default{
 	name : 'seqsum',	// seqsum - 인스턴스, 이름을 주면 객체가 됨
 	components : {
