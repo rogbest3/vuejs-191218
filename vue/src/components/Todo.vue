@@ -68,7 +68,7 @@ export default {
             })
             if(idx > -1)
                 this.todos.splice(idx, 1) */
-         
+            //
             this.todos.splice(i, 1)
 
         }
